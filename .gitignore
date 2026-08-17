@@ -1,0 +1,150 @@
+# =========================
+# Python
+# =========================
+
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+
+# =========================
+# Virtual Environment
+# =========================
+
+venv/
+.venv/
+env/
+ENV/
+.env/
+.env.*
+!.env.example
+
+# =========================
+# Environment / Secrets
+# =========================
+
+.env
+.env.local
+.env.development
+.env.production
+
+# =========================
+# Jupyter
+# =========================
+
+.ipynb_checkpoints/
+*.ipynb_checkpoints
+
+# =========================
+# RAG / AI Generated Data
+# =========================
+
+# Uploaded documents / raw data
+data/*
+!data/.gitkeep
+
+# Generated embeddings
+embeddings/*
+!embeddings/.gitkeep
+
+# Vector databases
+vectorstore/*
+!vectorstore/.gitkeep
+
+# Application/runtime storage
+storage/*
+!storage/.gitkeep
+
+# =========================
+# Local AI Models
+# =========================
+
+# Hugging Face / Transformer model files
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.gguf
+*.onnx
+
+# Local model/cache directories
+models/
+model/
+hf_cache/
+.cache/
+huggingface/
+transformers_cache/
+
+# =========================
+# Logs
+# =========================
+
+*.log
+logs/
+
+# =========================
+# Database
+# =========================
+
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# OS Files
+# =========================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# =========================
+# VS Code
+# =========================
+
+.vscode/
+*.code-workspace
+
+# =========================
+# PyCharm
+# =========================
+
+.idea/
+
+# =========================
+# Temporary Files
+# =========================
+
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+
+# =========================
+# Build / Distribution
+# =========================
+
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# =========================
+# Coverage / Testing
+# =========================
+
+.coverage
+.coverage.*
+htmlcov/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# =========================
+# Streamlit
+# =========================
+
+.streamlit/secrets.toml
